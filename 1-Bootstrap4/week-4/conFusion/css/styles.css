@@ -45,6 +45,10 @@ body {
     padding: 10px;
 }
 
+#loginLabel {
+    cursor: pointer;
+}
+
 .carousel {
     background: #512da8;
 }
