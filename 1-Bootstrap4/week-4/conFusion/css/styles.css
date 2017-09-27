@@ -54,3 +54,15 @@ body {
 
 #loginLabel, #reserveTableLink {
   cursor: pointer; }
+
+.modal .modal-header {
+  background-color: #512DA8; }
+
+.modal .modal-header, .modal .close {
+  color: floralwhite; }
+
+.modal .modal-body {
+  background-color: #D1C4E9; }
+
+.modal .modal-footer {
+  background-color: #9575CD; }

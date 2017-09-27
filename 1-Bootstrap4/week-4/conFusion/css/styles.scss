@@ -77,3 +77,20 @@ body{
 #loginLabel, #reserveTableLink {
     cursor: pointer;
 }
+
+.modal {
+    .modal-header {
+        background-color: $background-dark;
+    }
+    .modal-header, .close {
+        color: floralwhite;
+    }
+
+    .modal-body {
+        background-color: $background-pale;
+    }
+
+    .modal-footer {
+        background-color: $background-light;
+    }
+}
