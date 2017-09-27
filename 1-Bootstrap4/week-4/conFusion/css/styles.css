@@ -52,5 +52,5 @@ body {
   position: absolute;
   bottom: 0px; }
 
-#loginLabel {
+#loginLabel, #reserveTableLink {
   cursor: pointer; }

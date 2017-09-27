@@ -12,3 +12,22 @@ $(document).ready(function () {
         }
     });
 });
+
+$("#reserveTableLink").click(function () {
+    $("#reserveModal").modal("toggle");
+});
+
+$(document).keyup(function(ev){
+    if(ev.keyCode == 27)
+        $("#reserveModal").trigger("click");
+});
+
+$("#loginLabel").click(function () {
+    $("#loginModal").modal("toggle");
+});
+
+$(document).keyup(function(ev){
+    if(ev.keyCode == 27)
+        $("#loginModal").trigger("click");
+});
+
